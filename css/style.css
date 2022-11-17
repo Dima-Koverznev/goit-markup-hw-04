@@ -161,9 +161,10 @@ outline: 1px;
 }
 
 .site-contacts .link {
-display: block;
+display: flex;
 padding-top: 32px;
 padding-bottom: 32px;
+align-items: center;
 
 color: var(--primary-text-color);
 font-weight: 500;
@@ -179,6 +180,7 @@ letter-spacing: 0.02em;
 
 .site-contacts .icon {
   fill: currentColor;
+  margin-right: 10px;
 }
 
 .site-contacts .link:hover,
@@ -190,7 +192,6 @@ letter-spacing: 0.02em;
 /* -----HERO----- */
 .hero {
   max-width: 1600px;
-  height: 600px;
   margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -368,7 +369,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 
 .team-list .item {
   background: var(--primary-white-color);
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
   0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -425,15 +426,21 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
   border-radius: 50%;
 }
 
+a.team-soc-link.link:hover,
+a.team-soc-link.link:focus {
+  background-color: var(--accent-color);
+}
 .team-soc-icon {
   fill: currentColor;
 }
 
-.team-soc-link:hover,
-.team-soc-link:focus {
+.team-soc-item:hover,
+.team-soc-item:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
+
+
 
 .clients-list {
   display: flex;
