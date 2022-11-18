@@ -429,16 +429,17 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 a.team-soc-link.link:hover,
 a.team-soc-link.link:focus {
   background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 .team-soc-icon {
   fill: currentColor;
 }
 
-.team-soc-item:hover,
+/* .team-soc-item:hover,
 .team-soc-item:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
-}
+} */
 
 
 
